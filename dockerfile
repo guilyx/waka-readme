@@ -1,4 +1,4 @@
-FROM python:slim-bullseye
+FROM python:3.11-bullseye
 
 ENV PYTHONFAULTHANDLER=1 \
     PYTHONUNBUFFERED=1 \
